@@ -1,0 +1,14 @@
+.boutonprimaire{
+    background-color: transparent;
+    border: solid white;
+    width: 26vw;
+
+}
+@media screen and (max-width:433px){
+    .boutonprimaire h3{
+        width: 25vw;
+        font-size: 15px;
+
+
+    }
+}

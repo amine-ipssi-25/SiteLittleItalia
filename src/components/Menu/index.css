@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Creepster&display=swap');
+
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.sliderentrée {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 250%;
+    height: 450px;
+  }
+.sliderentrée img {
+    width: 25%; 
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  .sliderentrée img:hover{
+    transform: scale(1.1);
+  }
+  #img3{
+    width: 20%;
+  }
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.prev {
+    left: 0;
+  }
+
+.next {
+    right: 0;
+  }
+
+.slidePlat {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 250%;
+    height: 450px;
+  }
+.slidePlat img {
+    width: 25%; 
+    height: auto;
+    transition: 0.5s ease-in-out;
+  }
+.slidePlat img:hover{
+  transform: scale(1.1);
+}
+
+.Titre h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0) ;
+}
+.l{
+  left: 0;
+}
+.r{
+  right: 0;
+}
+
+
+
+.slideDessert {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 250%;
+  height: 450px;
+}
+.slideDessert img {
+  width: 25%; 
+  height: auto;
+  transition: 0.5s ease-in-out;
+}
+.slideDessert img:hover{
+transform: scale(1.1);
+}
+@media screen and (max-width: 800px){
+    .slidePlat img{
+      width: 50%;
+      height: 360px;
+    }
+    .sliderentrée img{
+      width: 50%;
+      height: 360px;
+    }
+    .slideDessert img{
+      width: 50%;
+      height: 360px;
+    }
+}
